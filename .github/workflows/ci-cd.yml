@@ -29,7 +29,7 @@ jobs:
       - name: Compile Java application
         run: javac --add-modules jdk.httpserver App.java
 
-      - name: Smoke test application
+     - name: Smoke test application
         shell: bash
         run: |
           set -euo pipefail
